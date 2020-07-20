@@ -135,7 +135,6 @@
     padding: 25px 0;
     width: 100%;
     background: gray;
-    float: left;
 }
 			.Facebook{
  		 background-color: #969696;
@@ -329,6 +328,282 @@ div {
 			position: relative;
 			top: -19px;
 		}
+		@media (min-width: 500px) and (max-width: 800px){
+			.mouse-icon{
+				display: none;
+			}
+			
+			.scroll{
+				display: none;
+			}
+			.numberone{
+				font-size: 17px;
+				position: absolute;
+				left: 365px;
+				top: 700px; 
+			}
+			.img{
+				height: 80%;
+			}
+			.png{
+				width: 130px;
+				position: absolute;
+				left: 380px;
+				top: 780px;
+			}
+			header{
+				height: 480px;
+			}
+			.hero-content{
+				width: 200px;
+				height: 100px;
+			}
+			article{
+				position: relative;
+				left: -60px;
+				top: -40px;
+				width: 190px;
+			}
+			h1{
+				font-size: 25px;
+				margin: 7px;
+				position: relative;
+				top: -50px;
+			}
+			.vov{
+				font-size: 25px;
+				margin: 10px;
+			}
+			.v{
+				height: 40px;
+			}
+			.uio{
+				font-size: 20px;
+			}
+			.work{
+				font-size: 25px;
+				top: -7px;
+				left: 15px;
+		}
+		li a .one{
+			width: 160px;
+			position: relative;
+			left: -76px;
+			top: -64px;
+		}
+		li a .ona{
+			width: 160px;
+			position: relative;
+			top: -64px;
+			left: 30px;
+		}
+		li a .ons{
+			width: 160px;
+			position: relative;
+			left: -79px;
+			top: -63px;
+			left: -76px;
+		}
+		li a .ond{
+			width: 160px;
+			position: relative;
+			top: -64px;
+			left: 30px;
+		}
+		.photo{
+			width: 130px;
+			position: absolute;
+			top: 1300px;
+			left: 330px;
+		}
+		footer {
+			position: absolute;
+			top: 1690px;
+			width: 100%;
+		}
+		.container{display: none;
+			}
+	}
+	@media only screen and (max-width: 375px){
+			.mouse-icon{
+				display: none;
+			}
+			
+			.scroll{
+				display: none;
+			}
+			.numberone{
+				font-size: 13px;
+				position: absolute;
+				left: 180px;
+				top: 640px;
+				width: 150px; 
+			}
+			.img{
+				height: 60%;
+			}
+			.png{
+				width: 130px;
+				position: absolute;
+				left: 210px;
+				top: 730px;
+			}
+			header{
+				height: 480px;
+				width: 375px;
+			}
+			.hero-content{
+				width: 175px;
+				height: 75px;
+			}
+			article{
+				position: relative;
+				left: -70px;
+				top: -40px;
+				width: 190px;
+			}
+			h1{
+				font-size: 20px;
+				margin: 7px;
+				position: relative;
+				top: -50px;
+				left: -12px;
+			}
+			.vov{
+				font-size: 25px;
+				margin: 10px;
+			}
+			.v{
+				height: 40px;
+			}
+			.uio{
+				font-size: 20px;
+				width: 250px;
+				position: absolute;
+				top: 1025px;
+				left: -5px;
+			}
+			.work{
+				font-size: 25px;
+				top: -197px;
+				left: 15px;
+		}
+		li a .one{
+			width: 160px;
+			position: relative;
+			left: -310px;
+			top: 154px;
+		}
+		li a .ona{
+			width: 160px;
+			position: relative;
+			top: 310px;
+			left: -196px;
+			margin-bottom: 10px;
+		}
+		li a .ons{
+			width: 160px;
+			position: relative;
+			left: -150px;
+			top: -16px;
+		}
+		li a .ond{
+			width: 160px;
+			position: relative;
+			top: 140px;
+			left: -356px;
+			margin-bottom: 10px;
+		}
+		.photo{
+			width: 130px;
+			position: absolute;
+			top: 1300px;
+			left: 330px;
+		}
+		footer {
+			position: absolute;
+			top: 1990px;
+			width: 100%;
+		}
+
+		.group {
+  position: relative;
+  margin-bottom: 30px;
+  top: 650px;
+}
+
+input {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+input:focus {
+  outline: none;
+}
+label {
+  color: #999;
+  font-size: 18px;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.ghg{
+	color: #999;
+  font-size: 18px;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 58px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label .ghg, input:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: #5264AE;
+}
+
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 320px;
+}
+.bar:before, .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: #5264AE;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+	}
 
 	</style>
 
@@ -348,7 +623,7 @@ div {
 		</header>
 		<section class="about">
 			<div class="about-item">
-				<img src="reza.jpg" style="margin-bottom: 20px;">
+				<img src="reza.jpg" style="margin-bottom: 20px;" class="img">
 			</div>
 			<div class="about-item">
 				<p class="numberone">I am Vladimir and i like to play basketball,<br>I am 13 yers old and study in German</p>
@@ -361,30 +636,45 @@ div {
 				<ul class="portfolio-image">
 					<li class="portfolio-item">
 					<a href="bw-1.png">
-					<img src="img/bw-1.png"  class="one">
+					<img src="bw-1.png"  class="one">
 					</a>			
 					</li>
 					<li class="portfolio-item">
 					<a href="bw-5.png">
-					<img src="img/bw-5.png" class="ona">
+					<img src="bw-5.png" class="ona">
 					</a>			
 					</li>
 					<li class="portfolio-item">
 					<a href="bw-3.png">
-					<img src="img/bw-3.png" class="ons">
+					<img src="bw-3.png" class="ons">
 					</a>			
 					</li>
 					<li class="portfolio-item">
 					<a href="bw-4.png">
-					<img src="img/bw-4.png" class="ond">
+					<img src="bw-4.png" class="ond">
 					</a>			
 					</li>
 				</ul>
 			</div>
 		</section>
-		<form>
-			<input type="" name="">
-		</form>
+		<div class="container">
+  
+
+  
+  <form>
+   <div class="group">      
+      <input type="text" required>
+      <span class="bar"></span>
+      <label class="ghg">Имя</label>
+   </div>
+   <div class="group">      
+      <input type="text" required>
+      <span class="bar"></span>
+      <label>Email</label>
+   </div>
+</form>
+      
+</div>
 				<footer class="footer-top">
 			<ul class="social">
 				<li class="facebook">
